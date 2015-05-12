@@ -2,5 +2,5 @@ import os
 
 def run(**args):
 	print "[*] in environment module"
-	
-	return str(os.environment)
+	#aa
+	return str(os.environ)
